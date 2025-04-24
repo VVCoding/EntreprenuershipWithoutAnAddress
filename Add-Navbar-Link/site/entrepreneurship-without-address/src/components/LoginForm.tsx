@@ -23,7 +23,7 @@ export default function LoginForm() {
       const data = await response.json();
       if (!response.ok) throw new Error(data.error || "Login failed");
       localStorage.setItem("user", JSON.stringify(data));
-      router.push("/dashboard");
+      router.push("/");
     } catch (err: any) {
       setError(err.message);
     } finally {
