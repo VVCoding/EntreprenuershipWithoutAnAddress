@@ -1,3 +1,5 @@
+import MyButton from './MyButton'
+
 const CTASection = () => {
   return (
     <section className="section-container border-t border-gray-100">
@@ -6,9 +8,9 @@ const CTASection = () => {
         <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
           Help bring business entrepreneurship everywhere.
         </p>
-        <button className="btn-primary">
+        <MyButton className="btn-primary">
           Get Involved
-        </button>
+        </MyButton>
       </div>
     </section>
   );
