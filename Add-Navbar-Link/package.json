@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "bcryptjs": "^3.0.2",
-    "lucide-react": "^0.503.0",
-    "pg": "^8.15.5"
-  }
-}
